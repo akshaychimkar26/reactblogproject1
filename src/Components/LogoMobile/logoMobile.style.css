@@ -1,0 +1,61 @@
+.class1{
+    width: 2rem;
+    height: 5px;
+    background-color: grey;
+    margin: 3px 0;
+  }
+
+
+.mLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.LCon{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    
+}
+
+
+.mLS {
+    width: 90%;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.classes{
+    height: 1rem;
+}
+
+
+.mbr{
+    border-bottom: 2px solid #c4c4c4;
+     box-shadow: 0px 3px 6px #0000001A;
+}
+
+.pick{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+.cm {
+    border-bottom: 0.5px solid #abaaaa82;
+    width: 70%;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+

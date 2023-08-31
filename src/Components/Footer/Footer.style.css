@@ -1,0 +1,171 @@
+
+.MainFoot {
+    display: flex;
+    background-color: rgb(156, 68, 46);
+    color: #ffffff;
+    justify-content: center;
+    min-height: 10rem;
+}
+
+.FRefer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.FWidth {
+    width: 90%;
+}
+
+.FootCont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100%;
+}
+
+.FootSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.center{
+    padding-top: 1rem;
+}
+
+.Fno {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.FootProp {
+    display: flex;
+}
+
+
+.Footmid {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.FootmidSCon {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lFTxt {
+    font-size: 15px;
+    font-style: normal;
+}
+
+pre{
+    font-family: inherit;
+}
+
+.visit{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media  (min-width:600px) and (max-width:1000px){
+
+
+    .MainFoot{
+        font-size: 14px;
+    }
+    .Fno {
+       padding-top: 2.5rem;
+    }
+
+    .FootCont {    
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+    }
+
+    .FWidth {
+        width: 95%;
+    }
+
+    
+ 
+
+
+
+
+
+
+}
+
+
+@media (max-width:600px){
+
+    .FootmidSCon{
+        height: auto;
+        line-height: 14px;
+    } 
+    .FootCont {
+        display: block;
+      }
+
+.FootSec {
+    position: relative;
+    left: 1rem;
+    width: 80%;
+    gap: 3px;
+    font-size: 15px;
+  }
+  .footLogo{
+    margin-top: -0.5rem;
+  }
+  
+  .Footmid {
+    gap: 6px;
+  }
+  
+  
+  .FootmidSCon {
+    gap: 10px;
+    line-height: 20px;
+  }
+  
+  
+  .Fno {
+    position: relative;
+      left: 1rem;
+      width: 80%;
+      font-size: 14px;
+      gap: 1px;
+      padding-top: 1rem;
+  }
+  
+  .lFTxt {
+    font-size: 15px;
+  }
+  
+  .FRefer {
+    position: relative;
+      left: 1rem;
+      width: 80%;
+      font-size: 14px;
+      gap: 1px;
+  }
+  
+
+.FWidth {
+    width: 95%;
+}
+
+
+
+}
